@@ -53,7 +53,7 @@ install_github("rqtl/qtl2bioc")
 
 The [R/qtl2bioc](https://github.com/rqtl/qtl2bioc) package contains two
 key functions, `grab_ensembl()`, for downloading the
-[Ensembl](https://ensembl.org) gene annotations, and
+[Ensembl](https://useast.ensembl.org/index.html) gene annotations, and
 `create_ensembl_query_func()`, for creating a query function to
 grab gene records for a given region.
 

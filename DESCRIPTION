@@ -26,5 +26,7 @@ LazyData: true
 Encoding: UTF-8
 ByteCompile: true
 Roxygen: list(markdown=TRUE)
-Remotes: bioc::release/GenomicRanges, bioc::release/AnnotationHub
+Remotes:
+    bioc/GenomicRanges,
+    bioc/AnnotationHub
 Config/roxygen2/version: 8.0.0

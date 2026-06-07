@@ -22,7 +22,7 @@ Functions to connect to genome databases via Bioconductor, such as to obtain gen
 \seealso{
 Useful links:
 \itemize{
-  \item \url{https://kbroman.org/qtl2}
+  \item \url{https://kbroman.org/qtl2/}
   \item \url{https://github.com/rqtl/qtl2bioc}
   \item Report bugs at \url{https://github.com/rqtl/qtl2bioc/issues}
 }

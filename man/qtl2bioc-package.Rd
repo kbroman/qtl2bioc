@@ -6,10 +6,7 @@
 \alias{qtl2bioc-package}
 \title{qtl2bioc: Connect to Bioconductor for QTL Experiments}
 \description{
-Functions to connect to genome databases via
-    Bioconductor, such as to obtain gene annotation information. Part
-    of R/qtl2, a reimplementation of the R/qtl package to better
-    handle high-dimensional data and complex cross designs.
+Functions to connect to genome databases via Bioconductor, such as to obtain gene annotation information. Part of R/qtl2, a reimplementation of the R/qtl package to better handle high-dimensional data and complex cross designs.
 }
 \section{Vignettes}{
 
@@ -33,6 +30,11 @@ Useful links:
 }
 \author{
 \strong{Maintainer}: Karl W Broman \email{broman@wisc.edu} (\href{https://orcid.org/0000-0002-4914-6671}{ORCID})
+
+Authors:
+\itemize{
+  \item Karl W Broman \email{broman@wisc.edu} (\href{https://orcid.org/0000-0002-4914-6671}{ORCID})
+}
 
 }
 \keyword{internal}

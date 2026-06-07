@@ -5,7 +5,7 @@
 
 [Karl Broman](https://kbroman.org)
 
-[R/qtl2bioc](https://github.com/rqtl/qtl2bioc) is part of [R/qtl2](https://kbroman.org/qtl2).
+[R/qtl2bioc](https://github.com/rqtl/qtl2bioc) is part of [R/qtl2](https://kbroman.org/qtl2/).
 It uses
 [Bioconductor](https://bioconductor.org) facilities to obtain
 the set of mouse genes in a region. While the functions within

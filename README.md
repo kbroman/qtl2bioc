@@ -1,14 +1,15 @@
 ### R/qtl2bioc
 
 [![R-CMD-check](https://github.com/rqtl/qtl2bioc/workflows/R-CMD-check/badge.svg)](https://github.com/rqtl/qtl2bioc/actions)
+[![r-universe badge](https://rqtl.r-universe.dev/qtl2bioc/badges/version)](https://rqtl.r-universe.dev/qtl2bioc)
 
 [Karl Broman](https://kbroman.org)
 
-[qtl2bioc](https://github.com/rqtl/qtl2bioc) is part of [R/qtl2](https://kbroman.org/qtl2).
+[R/qtl2bioc](https://github.com/rqtl/qtl2bioc) is part of [R/qtl2](https://kbroman.org/qtl2).
 It uses
 [Bioconductor](https://bioconductor.org) facilities to obtain
 the set of mouse genes in a region. While the functions within
-[qtl2bioc](https://github.com/rqtl/qtl2bioc) could logically be
+[R/qtl2bioc](https://github.com/rqtl/qtl2bioc) could logically be
 included within [qtl2](https://github.com/rqtl/qtl2), we've kept
 it separate in order to reduce package dependencies for those not
 interested in making use of the
@@ -18,22 +19,33 @@ interested in making use of the
 
 ### Installation
 
-To install [qtl2bioc](https://github.com/rqtl/qtl2bioc), first install
+To install [R/qtl2bioc](https://github.com/rqtl/qtl2bioc), first install
 the Bioconductor packages
 [GenomicRanges](https://bioconductor.org/packages/release/bioc/html/GenomicRanges.html) and
 [AnnotationHub](https://bioconductor.org/packages/release/bioc/html/AnnotationHub.html):
 
-    install.packages("BiocManager")
-    BiocManager::install(c("GenomicRanges", "AnnotationHub"))
+```r
+install.packages("BiocManager")
+BiocManager::install(c("GenomicRanges", "AnnotationHub"))
+```
 
-Next, install the [remotes package](https://remotes.r-lib.org):
+Next, install R/qtl2bioc from
+[r-universe](https://rqtl.r-universe.dev/qtl2bioc):
 
-    install.packages("remotes")
+```r
+install.packages("qtl2bioc", repos=c("https://rqtl.r-universe.dev",
+                                     "https://cloud.r-project.org"))
+```
 
-Finally, install the R/qtl2bioc package from its
+Alternatively, install the [remotes package](https://remotes.r-lib.org)
+and use `remotes::install_github()` to install R/qtl2bioc from its
 [Github repository](https://github.com/rqtl/qtl2bioc).
 
-    remotes::install_github("rqtl/qtl2bioc")
+```r
+install.packages("remotes")
+library(remotes)
+install_github("rqtl/qtl2bioc")
+```
 
 ---
 

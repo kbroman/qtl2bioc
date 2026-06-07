@@ -1,6 +1,6 @@
 ### R/qtl2bioc
 
-[![R-CMD-check](https://github.com/rqtl/qtl2bioc/workflows/R-CMD-check/badge.svg)](https://github.com/rqtl/qtl2bioc/actions)
+[![R-CMD-check](https://github.com/rqtl/qtl2bioc/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/rqtl/qtl2bioc/actions/workflows/R-CMD-check.yaml)
 [![r-universe badge](https://rqtl.r-universe.dev/qtl2bioc/badges/version)](https://rqtl.r-universe.dev/qtl2bioc)
 
 [Karl Broman](https://kbroman.org)

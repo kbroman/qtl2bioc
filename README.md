@@ -3,8 +3,6 @@
 [![R-CMD-check](https://github.com/rqtl/qtl2bioc/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/rqtl/qtl2bioc/actions/workflows/R-CMD-check.yaml)
 [![r-universe badge](https://rqtl.r-universe.dev/qtl2bioc/badges/version)](https://rqtl.r-universe.dev/qtl2bioc)
 
-[Karl Broman](https://kbroman.org)
-
 [R/qtl2bioc](https://github.com/rqtl/qtl2bioc) is part of [R/qtl2](https://kbroman.org/qtl2/).
 It uses
 [Bioconductor](https://bioconductor.org) facilities to obtain

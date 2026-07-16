@@ -50,11 +50,6 @@ test_that("create_ensembl_query_func works", {
                                               NA_character_, NA_character_, NA_character_, NA_character_),
                                protein_version = c(NA_character_, NA_character_, NA_character_, NA_character_, NA_character_,
                                                    NA_character_, NA_character_, NA_character_, NA_character_)),
-                          .Names = c("chr", "start", "stop", "width", "strand", "source", "type", "score", "phase", "gene_id", "gene_version",
-                                     "Name", "gene_source", "gene_biotype", "havana_gene", "havana_gene_version", "transcript_id",
-                                     "transcript_version", "transcript_name", "transcript_source", "transcript_biotype", "havana_transcript",
-                                     "havana_transcript_version", "tag", "transcript_support_level", "exon_number", "exon_id", "exon_version",
-                                     "ccds_id", "protein_id", "protein_version"),
                           row.names = c(NA,-9L), class = "data.frame")
 
     expect_equal(qf(2, 96.9, 97.0), expected)

@@ -1,3 +1,9 @@
+## qtl2bioc 0.23-1 (2026-07-16)
+
+- Small change in test of create_ensembl_query_func, for a change in
+  structure().
+
+
 ## qtl2bioc 0.22 (2020-05-21)
 
 - No actual changes; just keeping in sync with the qtl2 package.
